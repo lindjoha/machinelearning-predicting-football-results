@@ -6,7 +6,7 @@ This is a machine learning project to practice my new python and machine learnin
 - packages
 - jupyter notebook
 - pandas
-- machine learning
+- machine learning with scikit-learn
 - git/github
 
 The project is under development ...
