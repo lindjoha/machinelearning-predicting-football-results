@@ -8,3 +8,5 @@ This is a machine learning project to practice my new python and machine learnin
 - pandas
 - machine learning
 - git/github
+
+The project is under development ...
