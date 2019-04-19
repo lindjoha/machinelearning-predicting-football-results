@@ -115,7 +115,7 @@ class Feature():
         
         if self.feat_type == 'goalsscoredewma':
             column = 'FT'+self.ha_games+'G'
-            return df[column].ewm(com=0.5).mean().iloc[-1]
+            return df[column].ewm(com=0.25).mean().iloc[-1]
             
         else:
             return math.nan
