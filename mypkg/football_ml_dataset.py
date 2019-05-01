@@ -97,7 +97,7 @@ class Feature():
     def get_value(self, msd, match):
         team_name = match.get_home_or_away_team(self.ha_team)
         df = msd.get_subset(team_name, self.home_away_both_games, match.date, self.n_games)
-        if df.shape[0] == 0:
+        if df.shape[0] < self.n_games:#== 0:
             return math.nan
         
         df_home_games = df[df.HomeTeam == team_name]
